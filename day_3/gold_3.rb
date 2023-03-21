@@ -1,5 +1,6 @@
 require 'yaml'
 
+
 yaml = <<YAML
   sum: 510,
   orders:
@@ -11,5 +12,5 @@ object = YAML.load yaml
 
 p object
 
-
+# YAML.loal
 
