@@ -1,4 +1,5 @@
-str = "LGTM"
+# str = "LGTM"
+str = "SEIKAI"
 
 def densification str
  array = []
