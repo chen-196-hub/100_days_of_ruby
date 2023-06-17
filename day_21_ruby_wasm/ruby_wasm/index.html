@@ -1,0 +1,17 @@
+<html>
+  <script src="https://cdn.jsdelivr.net/npm/ruby-3_2-wasm-wasi@2.0.0/dist/browser.script.iife.js"></script>
+  <script type="text/ruby">
+    word = %w(01001100 01000111 01010100 01001101)
+    # word = %w(1000011 1001000 1000101 1001110 100000 1100100 1100101 1110011 1110101)
+
+    def analysis arg
+    array = []
+    arg.each do |i|
+      str = i.to_i(2).chr
+      array << str
+    end
+    array.join
+    end
+    puts analysis word
+  </script>
+</html>
