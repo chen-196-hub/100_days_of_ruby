@@ -5,7 +5,6 @@ module P
 end
 
 module M
-
 end
 
 class C
