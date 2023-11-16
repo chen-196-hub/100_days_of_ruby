@@ -11,3 +11,4 @@ class Fukuzawa < Human
 end
 
 puts Fukuzawa.name
+# => Yukichi
